@@ -1,0 +1,12 @@
+.Navigator{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+.Navigator1{
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+}
+
