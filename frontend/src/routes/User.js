@@ -20,8 +20,6 @@ import Box from "@mui/material/Box";
 import Tooltip from "@mui/material/Tooltip";
 import Zoom from "@mui/material/Zoom";
 import LoginIcon from "@mui/icons-material/Login";
-import GoogleIcon from "@mui/icons-material/Google";
-import GoogleLogin from "react-google-login";
 
 const createStyles = makeStyles({
   field: {
@@ -109,6 +107,30 @@ export default function Blogs() {
           </Card>
         );
       })}
+      {/* <TextField
+          id="outlined-multiline-flexible"
+          label="Multiline"
+          multiline
+          maxRows={4}
+          // value={value}
+          // onChange={handleChange}
+        />
+        <Button
+                color="primary"
+                onClick={() => {
+                  var _id = blog._id;
+                  var text = document.getElementById("outlined-multiline-flexible").value;
+                  axios
+                    .post("http://localhost:8000/blog/add", {
+                      _id,
+                      text,
+                    })
+                    .then((response) => {})
+                    .catch((error) => {});
+                }}>
+                  Create B
+        </Button> */}
     </Box>
+
   );
 }

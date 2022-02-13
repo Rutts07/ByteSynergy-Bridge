@@ -9,8 +9,6 @@ import Box from "@mui/material/Box";
 import Tooltip from "@mui/material/Tooltip";
 import Zoom from "@mui/material/Zoom";
 import LoginIcon from "@mui/icons-material/Login";
-import GoogleIcon from "@mui/icons-material/Google";
-import GoogleLogin from "react-google-login";
 
 const createStyles = makeStyles({
   field: {
