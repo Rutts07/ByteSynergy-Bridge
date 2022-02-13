@@ -4,6 +4,15 @@
     align-items: center;
 }
 
+.container{
+    /* background-image: url("bg-1.png");
+    color:orange; */
+    background-position: 'center';
+    background-size: 'cover',
+    /* background-Repeat : 'no-repeat',
+    width: '100vw',
+    height: '100vh' */
+}
 .Navigator1{
     background-color: lightskyblue;
     display: flex;
